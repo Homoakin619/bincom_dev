@@ -1,7 +1,4 @@
 
-# from asyncio.windows_events import None
-
-
 agent_names = [
     (1, 'Christian', 'Emenike', 'christian@bincom.net', '08034699500', 1),
     (2, 'Ngozi', 'Emenike', 'biggysmalls@home.net', '08089003444', 2),
