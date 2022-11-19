@@ -5,7 +5,7 @@ class agentname(models.Model):
     firstname = models.CharField(max_length=255,null=False)
     lastname = models.CharField(max_length=255,null=False)
     email = models.EmailField(max_length=255,null=False)
-    phone = models.IntegerField(null=False)
+    phone = models.BigIntegerField(null=False)
     pollingunit_uniqueid = models.IntegerField(null=False)
 
 class announced_lga_result(models.Model):
