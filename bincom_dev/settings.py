@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+from xml.etree.ElementTree import TreeBuilder
 import environ
 import dj_database_url
 
@@ -31,12 +32,10 @@ environ.Env.read_env()
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = TreeBuilder
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'https://bincomdev.up.railway.app',
-    'localhost',
+    '*'
     ]
 
 CSRF_TRUSTED_ORIGINS = ['https://bincomdev.up.railway.app']
