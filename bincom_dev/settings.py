@@ -39,6 +39,7 @@ ALLOWED_HOSTS = [
     'localhost',
     ]
 
+CSRF_TRUSTED_ORIGINS = ['https://bincomdev.up.railway.app']
 
 # Application definition
 
