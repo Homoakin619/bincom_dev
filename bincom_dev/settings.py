@@ -29,10 +29,12 @@ environ.Env.read_env()
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'https://bincomdev.up.railway.app/',
+    'bincomdev.up.railway.app',
+    'https://bincomdev.up.railway.app'
     '127.0.0.1'
     ]
 
