@@ -1,3 +1,3 @@
 # bincom_dev
 
-# live link to be posted soon
+# live link located at https://bincomdev.up.railway.app/
